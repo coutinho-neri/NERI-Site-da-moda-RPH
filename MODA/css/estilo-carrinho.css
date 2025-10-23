@@ -1,0 +1,142 @@
+.pagamento{
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+ 
+.titulo{
+    font-size: 2em;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #CCCCCC;
+}
+ 
+.resumo{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap; 
+}
+ 
+.itens{
+    flex: 2; 
+    min-width: 450px;
+}
+ 
+.sec-resumo{
+    flex: 1; 
+    min-width: 280px;
+}
+ 
+.item{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #E0E0E0;
+    gap: 15px;
+}
+ 
+.imagem img{
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+ 
+.titulo-item{
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+ 
+.tamanho{
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 8px;
+}
+ 
+.quantidade{
+    display: flex;
+    align-items: center;
+}
+ 
+.quantidade label{
+    font-size: 0.9em;
+    margin-right: 5px;
+    color: #333;
+}
+ 
+.quantidade select{
+    padding: 5px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+ 
+.preco-exibicao{
+    text-align: right;
+    width: 80px;
+}
+ 
+.preco-item{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+}
+ 
+.remover{
+    color: #CC0000;
+    cursor: pointer;
+    font-size: 1.1em;
+    padding: 5px;
+    transition: opacity 0.2s;
+}
+ 
+.remover:hover{
+    opacity: 0.7;
+}
+ 
+.pedido{
+    padding: 25px;
+    border: 1px solid #CCCCCC;
+    background-color: #F8F8F8;
+}
+ 
+.pedido h3{
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 15px;
+    color: #333;
+}
+ 
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+ 
+.valor{
+    font-weight: 600;
+}
+ 
+.frete{
+    font-size: 1.1em;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 2px solid #6C4E3D;
+}
+ 
+.total{
+    font-size: 1.2em;
+    color: #6C4E3D;
+}
+ 
+.finalizar{
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 1.1em;
+}
+ 
+@media (max-width: 995x){
+}
+ 
